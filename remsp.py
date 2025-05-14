@@ -4,15 +4,15 @@ import os, glob, shutil, random
 
 # 1. Folder mapping → class id
 FOLDER_CLASS_MAP = {
-    "NewEarthquake.v1i.yolov11": 0,      # animal
-    "Cardetecting.v1i.yolov11": 1,       # car
-    "Bikedetection.v2i.yolov11": 2,      # motorcycle
-    "carts.v1i.yolov11": 3                # shopping-cart
+    "your dataset name": 0,      
+    "your dataset name": 1,       
+    "your dataset name": 2,     
+    "your dataset name": 3              
 }
 
 # 2. Root path
-DATASET_ROOT = "/mnt/d/yolov11_thesis/dataset"
-TARGET_ROOT = "/mnt/d/yolov11_thesis/data"
+DATASET_ROOT = "your path"
+TARGET_ROOT = "your path"
 
 # 3. Target folders
 IMG_ALL = os.path.join(TARGET_ROOT, "images/all")
