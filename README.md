@@ -1,1 +1,32 @@
 # merge-dataset
+this is source code for combine mutiply dataset images and labels togerther for trainning computer vison model
+├── dataset/
+│   ├── 01/
+│   │   ├── images/
+│   │   │   └── image001.jpg
+│   │   └── labels/
+│   │       └── image001.txt
+│   ├── 02/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── 03/
+│   │   ├── images/
+│   │   └── labels/
+│   └── 04/
+│       ├── images/
+│       └── labels/
+│
+├── data/
+│   ├── images/
+│   │   └── all/
+│   ├── labels/
+│   │   └── all/
+│   ├── train/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── valid/
+│   │   ├── images/
+│   │   └── labels/
+│   └── test/
+│       ├── images/
+│       └── labels/
