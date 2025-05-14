@@ -1,17 +1,16 @@
-/mnt/d/yolov11_thesis/
 ├── dataset/
-│   ├── NewEarthquake.v1i.yolov11/
+│   ├── 01/
 │   │   ├── images/
 │   │   │   └── image001.jpg
 │   │   └── labels/
 │   │       └── image001.txt
-│   ├── Cardetecting.v1i.yolov11/
+│   ├── 02/
 │   │   ├── images/
 │   │   └── labels/
-│   ├── Bikedetection.v2i.yolov11/
+│   ├── 03/
 │   │   ├── images/
 │   │   └── labels/
-│   └── carts.v1i.yolov11/
+│   └── 04/
 │       ├── images/
 │       └── labels/
 │
